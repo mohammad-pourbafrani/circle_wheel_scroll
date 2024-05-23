@@ -456,7 +456,7 @@ class RenderCircleListViewport extends RenderBox
   void performLayout() {
     final BoxConstraints childConstraints = constraints.copyWith(
       minHeight: _itemExtent,
-      maxHeight: _itemExtent,
+      maxHeight: _itemExtent + 70,
       minWidth: 0.0,
     );
 
